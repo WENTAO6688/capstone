@@ -1,0 +1,373 @@
+body {
+  background-color: #F8F8F8;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h3 {
+  color: White;
+}
+
+p {
+  font-family:serif;
+  font-size: 22px;
+}
+
+li {
+  text-align: left;
+}
+
+.signature {
+  font-size: 35px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.h4font {
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  bottom: 20px;
+  left: 450px;
+  display: inline-block;
+  color: #fafafa;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container1{
+  position: relative;
+  bottom: 30px;
+}
+
+.teamname {
+  color: #fafafa;
+  font-family:Arial serif;
+  font-size: 28px;
+  margin-left: 20px;
+  position: relative;
+  text-decoration: none;
+  top:10px;
+}
+
+.head-button-block {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  height: 70px;
+}
+
+.imageblock1{
+  background-color: #F8F8F8;
+  text-align: center;
+  width: auto;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+
+.image01{
+  text-align: center;
+  margin-top: 120px;
+}
+
+.image02 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.a1 {
+  position: relative;
+  width: 24%;
+  margin-left: 250px;
+  border: 3px black solid;
+  float: left;
+  text-align: left;
+}
+
+.a2 {
+  position: relative;
+  margin-right: 200px;
+  float: right;
+  width: 26%;
+  text-align: right;
+}
+
+.image03 {
+  position: relative;
+  margin-left: 250px;
+  padding-top: 100px;
+}
+
+.AI {
+  width: 30%;
+  float: left;
+  border: 3px black solid;
+}
+
+.a3 {
+  width: 40%;
+}
+
+.container2 {
+  position: relative;
+  top:30px;
+  text-align: center;
+  background-color: #e4f2f0;
+}
+
+.image {
+  padding-top: 60px;
+}
+
+.textblock0 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #47555e;
+  position: relative;
+  padding-bottom: 50px;
+  margin: 70px 200px 0 200px;
+  border: 1px solid #9dd8c8;
+}
+
+.textblock1 {
+  background-color: #3D84A8;
+  background-image: linear-gradient(135deg,#e5dfdf 40%,#e0e7e9);
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.ask {
+  font-family: 'Kalam', cursive;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.text_block {
+  font-family: 'Kalam', cursive;
+  color: #3a718c;
+  position: relative;
+  font-size: 25px;
+}
+
+.imageblock2 {
+  padding-bottom: 50px;
+  top: 35px;
+  background-color: #eaebd8;
+
+}
+
+.image-block2 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 130px;
+  background-color: #f9f6f2;
+}
+
+.image-block3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #e8f1f5;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(135deg,#374a61 70%,#27292c);
+  margin: 0 0 0 0;
+}
+
+.partner-title {
+  color: #3a8a9e;
+  font-weight: bold;
+  background-color: #ededed;
+  border: 2px solid #d6bcd6;
+  cursor: pointer;
+  border-radius: 28px;
+  padding: 15px 39px;
+  margin: 0 80px 80px 80px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.a4 {
+  position: relative;
+  width: 48%;
+  border: 2px black solid;
+}
+
+.a5 {
+  width: 24%;
+  left: 300px;
+  border: 2px black solid;
+
+}
+
+.a6 {
+  width: 26%;
+  border: 2px black solid;
+
+}
+
+.a7 {
+  width: 25%;
+  border: 2px black solid;
+}
+
+.a8 {
+  width: 25%;
+  border: 2px black solid;
+}
+
+.a9 {
+ width: 45%;
+ border: 2px black solid;
+}
+
+.stock {
+  text-align: center;
+  margin: 50px auto 130px auto;
+}
+
+.image6{
+  width: 17%;
+}
+
+.image7 {
+  width: 17%;
+}
+
+.contact-section {
+   background-color: #F8F8F8;
+   padding-bottom: 30px;
+   margin: 70px 200px 50px 200px;
+}
+
+.contact-me {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 40px;
+}
+
+.bottom-title {
+  font-size: 20px;
+  position: relative;
+  margin-right: 20px;
+  padding-bottom: 0;
+  top: 50px;
+}
+
+.bottom-container{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  margin-right: 50px;
+}
+
+.footer-link {
+  border-radius: 10px;
+  border: 3px solid White;
+  border-width: 1px;
+  color: #fafafa;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.footer-link-long {
+  color: #fafafa;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+
+.btn {
+  color:#fafafa;
+  border-radius: 10px;
+  border: 3px solid White;
+  border-width: 3px;
+  text-decoration: none;
+}
+
+.bottom-link {
+  margin-top: 50px;
+}
+
+.submit-form {
+  background-color: #dfdfdf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.form-section {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*
+Project.html css code
+*/
+
+.Discription {
+  padding: 30px 0px 30px 0px;
+  margin: 0 300px 0 350px;
+  text-align: center;
+}
+
+.dataset {
+  padding: 30px 0px 30px 0px;
+  margin: 0 300px 0 350px;
+  text-align: center;
+}
+
+.objectives {
+  padding: 30px 0px 30px 0px;
+  margin: 0 300px 0 350px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: left;
+}
+
+.project-hr {
+  border: dotted;
+  width: 80%;
+}
+
+/*
+Teampage.html css code
+*/
+
+.member1{
+  position: relative;
+}
+
+.RanGu {
+  width: 15%;
+}
+
+.NingmengHe {
+  width: 16%;
+}
+
+.Wentaoma{
+  width: 15%;
+}
