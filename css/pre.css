@@ -339,35 +339,70 @@ Project.html css code
 
 .objectives {
   padding: 30px 0px 30px 0px;
-  margin: 0 300px 0 350px;
+  margin: 0 200px 0 200px;
   text-align: center;
 }
 
 .subtitle {
+  color: black;
   text-align: left;
+  text-decoration: none;
+}
+
+.data-title {
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .project-hr {
   border: dotted;
-  width: 80%;
+  width: 70%;
+}
+
+/*
+Objective.html css code
+*/
+.objective1-body {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
 }
 
 /*
 Teampage.html css code
 */
-
+.allmember{
+  text-align: center;
+}
+.intro {
+  font-size: 18px;
+  text-align: left;
+}
 .member1{
+  margin: 100px auto 100px auto;
   position: relative;
 }
 
 .RanGu {
-  width: 15%;
+  width: 8%;
 }
 
 .NingmengHe {
-  width: 16%;
+  width: 9%;
 }
 
 .Wentaoma{
-  width: 15%;
+  width: 8%;
+}
+
+.Lingyao{
+  width: 8%;
+}
+
+.Yutong{
+  width:8%;
+}
+
+.Zhuochen{
+  width: 9%;
 }
