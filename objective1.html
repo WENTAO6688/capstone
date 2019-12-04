@@ -14,35 +14,52 @@
         <h4 class="h4font"><a class="h4font" href="project.html">Project</a></h4>
         <h4 class="h4font"><a class="h4font" href="my-account.html">My Account</a></h4>
       </div>
+    </div>
 
       <div class="objective1-body">
-        <h2>Is there a high correlation between stock performance and periodical psychsignal sentiment?</h2>
+        <h2>Is there a high correlation between stock performance and periodical PsychSignal Sentiment?</h2>
+        <hr>
 
-        <h4>Psychsignal Sentiment: "Overbought " and "Oversold" signals.</h4>
-        <p>Conditions</p>
-        <ol>
-          <li>Closing Price < Moving Average Lower Bound and Bull-Bear < 10percentile </li>
-          <li>Closing Price > Moving Average Upper Bound and Bull-Bear > 90percentile </li>
-        </ol>
+        <h2>Business Logics</h2>
 
-          <h4>Stock Performance: The closing price increase/decrease when signal appeared.</h4>
-          <p>When "Overbought" appears:</p>
-          <ol>
-            <li>1-day: </li>
-            <li>2-day: </li>
-            <li>3-day: </li>
-            <li>5-day: </li>
-          </ol>
-          <p>When "Oversold" appears: </p>
-          <ol>
-            <li>1-day: </li>
-            <li>2-day: </li>
-            <li>3-day: </li>
-            <li>5-day: </li>
-          </ol>
+        <div class="content1">
+          <p>PsychSignal Sentiments: "Overbought " and "Oversold" signals.<p/>
 
-          <h2>Comparsion:</h2>
-          <p>When </p>
+          <div class="content2">
+            <ul>
+              <li>Closing Price < Moving Average Lower Bound<span class="span"> AND </span>Bull-Bear < 10thpercentile<em><strong>-></strong></em> “OB, Greed”.</li>
+              <li>Closing Price > Moving Average Upper Bound<span class="span"> AND </span>Bull-Bear > 90thpercentile<em><strong>-></strong></em> “OS, Fear”.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="content1">
+          <p>Stock Performance 1: when “Oversold, Fear” signal appear. (If the stocks return is positive, we consider it as correct case)</p>
+            <div class="content2">
+              <ul>
+                <li>1-day: The stocks return for next 1 day is positive after "OS".</li>
+                <li>2-day: The stocks return for next 2 day is positive after "OS".</li>
+                <li>3-day: The stocks return for next 3 day is positive after "OS".</li>
+                <li>5-day: The stocks return for next 5 day is positive after "OS".</li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="content1">
+          <p>Stock Performance 2: when “Overbought, Greed” signal appear. (If the stocks return is negative, we consider it as correct case)</p>
+            <div class="content2">
+              <ul>
+                <li>1-day: The stocks return for next 1 day is negative after "OS".</li>
+                <li>2-day: The stocks return for next 2 day is negative after "OS".</li>
+                <li>3-day: The stocks return for next 3 day is negative after "OS".</li>
+                <li>5-day: The stocks return for next 5 day is negative after "OS".</li>
+              </ul>
+            </div>
+        </div>
+
+          <h2>Result Comparsion</h2>
+          <p></p>
           <p></p>
 
       </div>

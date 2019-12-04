@@ -17,6 +17,9 @@ li {
   text-align: left;
 }
 
+.span {
+  font-weight: bold;
+}
 .signature {
   font-size: 35px;
   font-family: 'Great Vibes', cursive;
@@ -365,7 +368,23 @@ Objective.html css code
 .objective1-body {
   position: relative;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 40px;
+}
+
+.objective1-title {
+  font-size: 30px;
+}
+
+.content1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.content2 {
+  text-align: center;
+  margin-left: 180px;
+
 }
 
 /*
