@@ -358,32 +358,48 @@ Project.html css code
 }
 
 .project-hr {
-  border: dotted;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 8px;
   width: 70%;
 }
 
 /*
 Objective.html css code
 */
-.objective1-body {
+.objective-body {
   position: relative;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .objective1-title {
   font-size: 30px;
 }
 
-.content1 {
+.objective1-subtitle1 {
   text-align: center;
-  margin-top: 30px;
-  margin-left: 100px;
+  font-size: 30px;
+}
+
+.objective1-subtitle2 {
+  background-color: #dfdfdf;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.content1 {
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 120px;
 }
 
 .content2 {
   text-align: center;
-  margin-left: 180px;
+  margin-left: 100px;
 
 }
 
