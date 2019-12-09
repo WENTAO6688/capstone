@@ -405,7 +405,7 @@ Objective.html css code
   width: 50%;
   text-align: center;
   font-size: 23px;
-  margin: 80px auto auto auto;
+  margin: 50px auto auto auto;
   border-radius: 5px;
 }
 .content1 {
@@ -435,7 +435,12 @@ Objective.html css code
 
 .objective1-image4{
   margin: 30px auto auto auto;
-  width: 82%;
+  width: 80%;
+}
+
+.objective1-image5 {
+  margin: 30px auto auto auto;
+  width: 72%;
 }
 
 .objective1-text{
