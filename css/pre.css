@@ -17,6 +17,11 @@ li {
   text-align: left;
 }
 
+.special {
+  text-align: left;
+  margin: 30px 70px 0 70px;
+}
+
 .span {
   font-weight: bold;
 }
@@ -439,8 +444,8 @@ Objective.html css code
 }
 
 .objective1-image5 {
-  margin: 30px auto auto auto;
-  width: 72%;
+  margin: 50px auto auto auto;
+  width: 70%;
 }
 
 .objective1-text{
