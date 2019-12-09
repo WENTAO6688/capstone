@@ -371,11 +371,16 @@ Objective.html css code
 .objective-body {
   position: relative;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .objective1-title {
   font-size: 30px;
+}
+
+.objective1_table {
+  margin-top: 50px;
+  border: 3px solid grey;
 }
 
 .objective1-subtitle1 {
@@ -386,11 +391,23 @@ Objective.html css code
 .objective1-subtitle2 {
   background-color: #dfdfdf;
   border: 3px solid black;
+  width: 60%;
   text-align: center;
   font-size: 30px;
+  margin: 30px auto auto auto;
   border-radius: 20px;
 }
 
+.objective1-subtitle3 {
+  text-decoration: none;
+  background-color: #dfdfdf;
+  border: 3px solid black;
+  width: 35%;
+  text-align: center;
+  font-size: 23px;
+  margin: 80px auto auto auto;
+  border-radius: 5px;
+}
 .content1 {
   text-align: left;
   margin-top: 60px;
@@ -401,6 +418,46 @@ Objective.html css code
   text-align: center;
   margin-left: 100px;
 
+}
+
+.objective1-image {
+  position: relative;
+  margin: 50px 0 50px 0;
+}
+
+.objective1-image2{
+  width: 65%;
+}
+
+.objective-image3{
+  width: 65%;
+}
+
+.objective1-image4{
+  margin: 30px auto auto auto;
+  width: 86%;
+}
+
+.objective1-text{
+  text-align: left;
+  position: relative;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.empha {
+  font-size: 22px;
+  color: red;
+}
+
+.table {
+  position: relative;
+  margin: 30px 0 30px 0;
+}
+
+.all_table {
+  border: 3px solid grey;
+  display: inline-block;
 }
 
 /*
@@ -440,4 +497,13 @@ Teampage.html css code
 
 .Zhuochen{
   width: 9%;
+}
+
+/*
+reponse.html css code
+*/
+.response{
+  margin: 70px 100px 70px 100px;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
 }

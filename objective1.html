@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>objective1</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/pre.css">
   </head>
   <body>
@@ -17,7 +18,7 @@
     </div>
 
       <div class="objective-body">
-        <h2 class="objective1-subtitle1">Is there a high correlation between stock performance and periodical PsychSignal Sentiment?</h2>
+        <h2 class="objective1-subtitle1">Is there a Significant Correlation Between Stock Performance And Periodical PsychSignal Sentiment?</h2>
         <hr>
 
         <p class="objective1-subtitle2">Business Logics</p>
@@ -58,28 +59,567 @@
             </div>
         </div>
 
-        <p class="objective1-subtitle2">Process</p>
+        <p class="objective1-subtitle2">Analytical Process</p>
 
-        <div class="">
-         <img src="" alt="image/joined.png">
-        </div>
+          <div class="objective1-image">
+            <p>Step1: Joined These Two Datasets: "Psysignal" and "sec-master".</p>
+           <img class="objective1-image1"src="image/joined2.png" alt="">
+           <img class="objective1-image1"src="image/joined1.png" alt="">
+          </div>
 
-        <div class="">
-          <img src="" alt="image/ob_greed.png">
-        </div>
+          <div class="objective1-image">
+            <p>Step 2: Filter the Data When "OB, Greed" appeared.</p>
+            <img class="objective1-image2" src="image/ob_greed.png" alt="">
+          </div>
 
-        <div class="">
-          <img src="" alt="image/ob_group_symbols.png">
-        </div>
+          <div class="objective1-image">
+            <p>Step 3: Calculate the 1day/2day/3day/5day Average Stocks Return for each company.</p>
+            <img class="objective1-image3" src="image/ob_group_symbols.png" alt="">
+          </div>
 
-        <div class="content1">
-          <p></p>
-          <p></p>
+          <div class="objective1-image">
+            <p>Step 4: Summarize Correct "OB, Greed" and "OS, Fear" </p>
+            <p class="objective1-subtitle3">Part A: "Initial Comparision"</p>
+
+
+
+
+            <p class="objective1-subtitle3">Part B: "OverBought, Greed"</p>
+
+            <div class="objective1_table">
+              <img class="objective1-image4" src="image/1ob-day.png" alt="">
+              <p class="objective1-text">The companies that must have <span class="empha">negative</span> stock return for its next <span class="empha">1</span> day.
+              We order them in descending sequence and show the top 8 companies. These 8 companies are: </p>
+
+            <div class="table">
+              <table class="all_table">
+                <tr>
+                  <td width=10%>Rank</td>
+                  <td width=50%>Symbol</td>
+                  <td>Name</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>TENB</td>
+                  <td>Tenable Holdings, Inc</td>
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td>TTD</td>
+                  <td>The Trade Desk, Inc.</td>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>DOMO</td>
+                  <td>Domo, Inc.</td>
+                </tr>
+
+                <tr>
+                  <td>4</td>
+                  <td>BMY</td>
+                  <td>Bristol-Myers Squibb Co.</td>
+                </tr>
+
+                <tr>
+                  <td>5</td>
+                  <td>GS</td>
+                  <td>The Goldman Sachs Group, Inc.</td>
+                </tr>
+
+                <tr>
+                  <td>6</td>
+                  <td>CAT</td>
+                  <td>Caterpillar, Inc.</td>
+                </tr>
+
+                <tr>
+                  <td>7</td>
+                  <td>TWLO</td>
+                  <td>Twilio, Inc.</td>
+                </tr>
+
+                <tr>
+                  <td>8</td>
+                  <td>MMM</td>
+                  <td>3M Co.</td>
+                </tr>
+
+              </table>
+            </div>
+            </div>
+
+            <div class="objective1_table">
+              <img class="objective1-image4" src="image/2ob-day.png" alt="">
+              <p class="objective1-text">The companies that must have <span class="empha">negative</span> stock return for its next <span class="empha">2</span> day.
+              We order them in descending sequence and show the top 8 companies.</p>
+
+              <div class="table">
+                <table class="all_table">
+                  <tr>
+                    <td width=10%>Rank</td>
+                    <td width=50%>Symbol</td>
+                    <td>Name</td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>TTD</td>
+                    <td>The Trade Desk, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>TENB</td>
+                    <td>Tenable Holdings, Inc</td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>DOMO</td>
+                    <td>Domo, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>BMY</td>
+                    <td>Bristol-Myers Squibb Co.</td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>WK</td>
+                    <td>Workiva, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td>CAT</td>
+                    <td>Caterpillar, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>7</td>
+                    <td>BRK.B</td>
+                    <td>Berkshire Hathaway, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>8</td>
+                    <td>GS</td>
+                    <td>The Goldman Sachs Group, Inc.</td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+
+            <div class="objective1_table">
+              <img class="objective1-image4" src="image/3ob-day.png" alt="">
+              <p class="objective1-text">The companies that must have <span class="empha">negative</span> stock return for its next <span class="empha">3</span> day.
+              We order them in descending sequence and show the top 8 companies.</p>
+              <div class="table">
+                <table class="all_table">
+                  <tr>
+                    <td width=15%>Rank</td>
+                    <td width=53%>Symbol</td>
+                    <td>Name</td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>TTD</td>
+                    <td>The Trade Desk, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>TENB</td>
+                    <td>Tenable Holdings, Inc</td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>BMY</td>
+                    <td>Bristol-Myers Squibb Co.</td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>WK</td>
+                    <td>Workiva, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>DOMO</td>
+                    <td>Domo, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td>CAT</td>
+                    <td>Caterpillar, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>7</td>
+                    <td>BRK.B</td>
+                    <td>Berkshire Hathaway, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>8</td>
+                    <td>BLUE</td>
+                    <td>Bluebird bio, Inc.</td>
+                  </tr>
+
+
+                </table>
+              </div>
+
+            </div>
+
+            <div class="objective1_table">
+              <img class="objective1-image4" src="image/5ob-day.png" alt="">
+              <p class="objective1-text">The companies that must have <span class="empha">negative</span> stock return for its next <span class="empha">5</span> day.
+              We order them in descending sequence and show the top 8 companies.</p>
+
+              <div class="table">
+                <table class="all_table">
+                  <tr>
+                    <td width=10%>Rank</td>
+                    <td width=50%>Symbol</td>
+                    <td>Name</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>TENB</td>
+                    <td>Tenable Holdings, Inc</td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>TTD</td>
+                    <td>The Trade Desk, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>DOMO</td>
+                    <td>Domo, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>BMY</td>
+                    <td>Bristol-Myers Squibb Co.</td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>GS</td>
+                    <td>The Goldman Sachs Group, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td>CAT</td>
+                    <td>Caterpillar, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>7</td>
+                    <td>TWLO</td>
+                    <td>Twilio, Inc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>8</td>
+                    <td>MMM</td>
+                    <td>3M Co.</td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <img src="image/ob-summary.png" alt="">
+          <h1>Summary:</h1>
+            <p>1. TENB, TTD, DOMO, BMY are companies that have the extremely bad stock return once the signal "OB, Greed" appears.</p>
+            <p>2. They have constant negative stocks return within 1day, 2day, 3day and 5 day after the "OB, Greed" signal.</p>
+
+
+      <a href="objective1-os.html"><p class="objective1-subtitle3">Part C: "Oversold, Fear" </p></a>
+
+      <div class="objective1_table">
+        <img class="objective1-image4" src="image/1os-day.png" alt="">
+        <p class="objective1-text">The companies that must have <span class="empha">positive</span> stock return for its next <span class="empha">1</span> day.
+        We order them in descending sequence and show the top 8 companies. These 8 companies are: </p>
+
+      <div class="table">
+        <table class="all_table">
+          <tr>
+            <td width=10%>Rank</td>
+            <td width=50%>Symbol</td>
+            <td>Name</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>QURE</td>
+            <td>UniQure NV</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>GTT</td>
+            <td>GTT Communications, Inc.</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>CRM</td>
+            <td>salesforce.com, inc.</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>AMGN</td>
+            <td>Amgen, Inc.</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>AVLR</td>
+            <td>Avalara, Inc.</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>EPIX</td>
+            <td>ESSA Pharma, Inc.</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>CELG</td>
+            <td>Celgene Corp.</td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>UTX</td>
+            <td>United Technologies Corp.</td>
+          </tr>
+
+        </table>
+      </div>
+      </div>
+
+      <div class="objective1_table">
+        <img class="objective1-image4" src="image/2os-day.png" alt="">
+        <p class="objective1-text">The companies that must have <span class="empha">positive</span> stock return for its next <span class="empha">2</span> day.
+        We order them in descending sequence and show the top 8 companies.</p>
+
+        <div class="table">
+          <table class="all_table">
+            <tr>
+              <td width=10%>Rank</td>
+              <td width=50%>Symbol</td>
+              <td>Name</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>QURE</td>
+              <td>UniQure NV</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>AMGN</td>
+              <td>Amgen, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>CELG</td>
+              <td>Celgene Corp.</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>EPIX</td>
+              <td>ESSA Pharma, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>GTT</td>
+              <td>GTT Communications, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>GM</td>
+              <td>General Motors Co.</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>UTX</td>
+              <td>United Technologies Corp.</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>PCTY</td>
+              <td>Paylocity Holding Corp.</td>
+            </tr>
+
+          </table>
         </div>
       </div>
 
-        <div class="image-block3">
+      <div class="objective1_table">
+        <img class="objective1-image4" src="image/3os-day.png" alt="">
+        <p class="objective1-text">The companies that must have <span class="empha">positive</span> stock return for its next <span class="empha">3</span> day.
+        We order them in descending sequence and show the top 8 companies.</p>
+        <div class="table">
+          <table class="all_table">
+            <tr>
+              <td width=15%>Rank</td>
+              <td width=53%>Symbol</td>
+              <td>Name</td>
+            </tr>
 
+            <tr>
+              <td>1</td>
+              <td>QURE</td>
+              <td>uniQure NV</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>AMGN</td>
+              <td>Amgen, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>COUP</td>
+              <td>Coupa Software, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>GM</td>
+              <td>General Motors Co.</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>PAYC</td>
+              <td>Paycom Software, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>PCTY</td>
+              <td>Paylocity Holding Corp.</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>MGTA</td>
+              <td>Magenta Therapeutics, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>CELG</td>
+              <td>Celgene Corp.</td>
+            </tr>
+
+          </table>
+        </div>
+
+      </div>
+
+      <div class="objective1_table">
+        <img class="objective1-image4" src="image/5os-day.png" alt="">
+        <p class="objective1-text">The companies that must have <span class="empha">positive</span> stock return for its next <span class="empha">5</span> day.
+        We order them in descending sequence and show the top 8 companies.</p>
+
+        <div class="table">
+          <table class="all_table">
+            <tr>
+              <td width=10%>Rank</td>
+              <td width=50%>Symbol</td>
+              <td>Name</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>QURE</td>
+              <td>uniQure NV</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>AMGN</td>
+              <td>Amgen, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>PCTY</td>
+              <td>Paylocity Holding Corp.</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>COUP</td>
+              <td>Coupa Software, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>GM</td>
+              <td>General Motors Co.</td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>MGTA</td>
+              <td>Magenta Therapeutics, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>PAYC</td>
+              <td>Paycom Software, Inc.</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>HUBS</td>
+              <td>HubSpot, Inc.</td>
+            </tr>
+
+          </table>
+        </div>
+
+        <img src="image/os-summary.png" alt="">
+        <h1>Summary:</h1>
+          <p>1. QURE, AMGN, PCTY, COUP, GM are companies that have the extremely great stock return once the signal "OS, Fear" appears.</p>
+          <p>2. They have constant positive stocks return within 1day, 2day, 3day and 5 day after the "OS, Fear" signal.</p>
+
+          <a href="objective1-industry.html"><p class="objective1-subtitle3">Part D: Stock Return For Industries and Sector</p></a>
+
+
+        <div class="image-block3">
           <a class="btn" href="mailto:ma.wenta@husky.neu.edu">Email us</a>
           <div class="bottom-container">
             <a class="footer-link" href="https://www.linkedin.com/in/wentao-ma-65a379157/">LinkedIn</a>
