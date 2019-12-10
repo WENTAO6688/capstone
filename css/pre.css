@@ -36,7 +36,7 @@ li {
   padding-right: 10px;
   position: relative;
   bottom: 20px;
-  left: 450px;
+  left: 420px;
   display: inline-block;
   color: #fafafa;
   font-size: 20px;
@@ -405,11 +405,12 @@ Objective.html css code
 
 .objective1-subtitle3 {
   text-decoration: none;
+  color: black;
   background-color: #dfdfdf;
   border: 3px solid black;
-  width: 50%;
+  width: 70%;
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   margin: 50px auto auto auto;
   border-radius: 5px;
 }
@@ -470,19 +471,37 @@ Objective.html css code
   display: inline-block;
 }
 
+.none {
+  text-decoration: none;
+}
+
+.tool {
+  width: 38%;
+  text-align: left;
+  position: relative;
+  margin-left: 480px;
+  border: 2px solid grey;
+}
+
+.graduation {
+  width: 50%;
+}
+
 /*
 Teampage.html css code
 */
 .allmember{
   text-align: center;
 }
+
 .intro {
   font-size: 18px;
-  text-align: left;
+
 }
+
 .member1{
-  margin: 100px auto 100px auto;
   position: relative;
+  margin: 50px 0 100px 0;
 }
 
 .RanGu {
@@ -509,6 +528,14 @@ Teampage.html css code
   width: 9%;
 }
 
+.introduction {
+  position: relative;
+  margin-right: 100px;
+  text-align: left;
+  float: right;
+  border: 2px solid grey;
+  width: 60%
+}
 /*
 reponse.html css code
 */
