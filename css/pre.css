@@ -490,6 +490,14 @@ Objective.html css code
 .excel {
   width:46%;
 }
+
+.Recommendations-div {
+  position: relative;
+  margin: 100px 50px 0 240px;
+  width: 70%;
+
+  text-align: left;
+}
 /*
 Teampage.html css code
 */
