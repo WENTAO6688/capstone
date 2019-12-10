@@ -27,12 +27,14 @@
         <p class="objective1-subtitle2">Business Logics</p>
 
         <div class="content1">
-          <p> ➡️ Assumption of PsychSignal Sentiments: "Overbought " and "Oversold" signals.<p/>
+          <p> ➡️ Assumption of PsychSignal Sentiments: "OverBought, Greed " and "Oversold, Fear" signals.<p/>
 
           <div class="content2">
             <ul>
               <li>“OB, Greed”: Closing Price < Moving Average Lower Bound<span class="span"> AND </span>Bull-Bear < 7.5th percentile.</li>
               <li>“OS, Fear”: Closing Price > Moving Average Upper Bound<span class="span"> AND </span>Bull-Bear > 92.5th percentile.</li>
+              <li>We only consider the "OB, Greed" when stock return of all 5days is negative after "OB, Greed". </li>
+              <li>We only consider the "OS, Fear" when stock return of all 5days is positive after "OS, Fear".</li>
             </ul>
           </div>
         </div>
@@ -41,9 +43,8 @@
           <p> ➡️ Constrains:<p/>
             <div class="content2">
               <ul>
-                <li>It is hard to validate if this is the optimal situation</li>
-                <li>If the stock return of next 5days is negative after "OB, Greed", we consider it as correct "OB".</li>
-                <li>If the stock return of next 5days is positive after "OS, Fear", we consider it as correct "OS".</li>
+                <li>It is hard to validate if this is the optimal situation.</li>
+
               </ul>
             </div>
 
